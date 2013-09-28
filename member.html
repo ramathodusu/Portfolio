@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Comment
+	/* @author: Rama Thodusu
+	* @filename:Member page
+	* @websitename: Portfolio
+	* @description: This is member page of the website consits of form for viewers to submit their details
+	*/-->
+	<head>
+		<meta charset="utf-8">
+		<title>Member Details</title>
+		<link rel="stylesheet" type="text/css" href="css/style2.css"/>
+	</head>
+	<body>
+		<!-- Navigation of the pages-->
+		<nav id="navlst">
+			<ul>
+				<li>
+					<img src="images/achlogo.png">
+				</li>
+				<li>
+					<a href="home.html" title="home" id="homenav">Home</a>
+				</li>
+				<li>
+					<a href="aboutme.html" title="aboutme"id="aboutnav">About ME</a>
+				</li>
+				<li>
+					<a href="projectwork.html" title="projectwork" id="projectnav">Project Work</a>
+				</li>
+				<li>
+					<a href="services.html" title="servicesces" id="servicesnav">Services</a>
+				</li>
+				<li>
+					<a href="contactme.html" title="contact" id="contactnav">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+		</br>
+		<header>
+			<!-- header with welcome statement-->
+			<h1>Welcome!!! Leave your Information</h1>
+		</header>
+		<!--form for submitting the viewers details-->
+		<form method="post">
+			<fieldset>
+				<h2 class="account">Member details</h2>
+				<ul>
+					<li>
+						<label for="first_name"> First Name:</label>
+						<input type="text" id="first_name" name="first_name" class="large"/>
+					</li>
+
+					<li>
+						<label for="last_name"> Last Name:</label>
+						<input type="text" id="last_name" name="last_name" class="large"/>
+					</li>
+					<li>
+						<label for="email"> Email:</label>
+						<input type="text" id="email" name="email" class="large"/>
+					</li>
+					<li>
+						<label for="password"> Contact Number:</label>
+						<input type="text" id="phone" name="phone" class="medium"/>
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset>
+				<h2 class="account">Address</h2>
+				<ul>
+					<li>
+						<label for="address"> Street Address:</label>
+						<input type="text" id="street" name="streetaddress" class="large"/>
+					</li>
+					<li>
+						<label for="city"> City:</label>
+						<input type="text" id="city" name="city" class="medium"/>
+					</li>
+					<li>
+						<label for="zipcode"> ZipCode:</label>
+						<input type="text" id="zip" name="zipcode" class="small"/>
+					</li>
+				</ul>
+			</fieldset>
+			<!--submit button-->
+			<button type="submit">
+				Save
+			</button>
+		</form>
+		<!--footer of the screen with copyright statement and few other links-->
+		<footer>
+			<ul class="footer">
+				My Complete Profile &copy; 2013
+				<!--script to dispay current date-->
+				<script>
+					document.write(Date());
+				</script>
+				<a href="member.html">Terms</a>
+				<a href="member.html">Privacy</a>
+				<a href="member.html">Security</a>
+			</ul>
+		</footer>
+	</body>
+</html>

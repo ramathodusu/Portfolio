@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Comment
+		 /* @author: Rama Thodusu
+		  * @filename:contactme page
+		 * @websitename: Portfolio
+		 * @description: This is contactme page of the website consits of contact details, keep connected section, note button to say thank you and link to members page	 
+		 */-->
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome to my Portfolio Site</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<style>
+			/* table border will be collapsed */
+			table {
+				border-collapse: collapse;
+			}
+			td, th {
+				border: 1px solid #666;
+				margin: 0;
+				padding: 0.5em;
+			}
+			/* background change for the old rows */
+			tbody tr:nth-child(odd) {
+				background: #CCC;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation of the pages-->
+		<nav id="navlst4">
+			<ul>
+				<li>
+					<img src="images/achlogo.png">
+				</li>
+				<li>
+					<a href="home.html" title="home" id="homenav">Home</a>
+				</li>
+				<li>
+					<a href="aboutme.html" title="aboutme"id="aboutnav">About ME</a>
+				</li>
+				<li>
+					<a href="projectwork.html" title="projectwork" id="projectnav">Project Work</a>
+				</li>
+				<li>
+					<a href="services.html" title="servicesces" id="servicesnav">Services</a>
+				</li>
+				<li>
+					<a href="contactme.html" title="contact" id="contactnav">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+		</br>
+		<header>
+			<!-- header with welcome statement and tagline-->
+			<h1>A Warm "WELCOME" Viewer!!!</h1>
+			<h3>Dare to be Programmer and Care to Acheive</h3>
+		</header>
+		<div>
+			<table border=0 cellspacing=1 cellpadding=2 width=640 >
+				<tbody>
+					<tr>
+						<th align="right" width=140>Full Name</th><td align="left">Rama Thodusu</td>
+					</tr>
+					<tr>
+						<th align="right">Location</th><td align="left">Barrie</td>
+					</tr>
+					<tr>
+						<th align="right">Street</th><td align="left">34, Ambler Bay</td>
+					</tr>
+					<tr>
+						<th align="right" width=140>Province</th><td align="left">Ontario</td>
+					</tr>
+					<tr>
+						<th align="right">Email Id</th><td align="left">ramalaxmi.thodusu@gmail.com</td>
+					</tr>
+					<tr>
+						<th align="right">Availability</th><td align="left">Weekdays only</td>
+					</tr>
+					<tr>
+						<th align="right">Contact Number</th><td align="left">705-700-0000</td>
+					</tr>
+					<tr>
+						<th align="right">Work Email Id</th><td align="left">XXX@gmail.com</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<section>
+			<p>
+				Hello everyone!!!! If that you are interested in my work and would you like to build a website for your personal and company works please feel to reach me at the above mentioned contact details.
+				<br/>
+
+				I am happy to help you to get a good website
+				<br/>
+
+				Happy to hear from you. Leave Your Details here <a href="member.html" title="member" >Member Details</a>
+			</p>
+
+			<p>
+				Be Connected following Social Networking Sites</br> 
+				<!--The following links link will open facebookand linkedin-->
+				<a href="https://www.facebook.com/" target="blank"><span style="font-family:Verdana, Geneva, sans-serif; font-size: x-small;">Facebook<img src="images/fb.jpg" width="50" height="50" /></a></br>
+				<a href="http://www.linkedin.com/profile/view?id=170837997&trk=nav_responsive_tab_profile" target="_blank"><span style="font-family:Verdana, Geneva, sans-serif; font-size: x-small;">LinkedIn<img src="images/lnkd.jpg" width="50" height="50" /></a>
+			</p>
+
+		</section>
+		<!--code for button click-->
+		<h2 id="id1">Thank you for visiting!!!</h2>
+		<button type="button" onclick="document.getElementById('id1').style.color='blue'">
+			Note
+		</button>
+		<!--footer of the screen with copyright statement and few other links-->
+		<footer> 
+			<ul class="footer">
+				My Complete Profile &copy; 2013
+				<!--script to dispay current date-->
+				<script>
+					document.write(Date());
+				</script>
+				<a href="/site/terms">Terms</a>
+				<a href="/site/privacy">Privacy</a>
+				<a href="/security">Security</a>
+			</ul>
+		</footer>
+	</body>
+</html>

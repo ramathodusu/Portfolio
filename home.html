@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<!-- Comment
+		 /* @author: Rama Thodusu
+		  * @filename:homepage
+		 * @websitename: Portfolio
+		 * logo,navigation bar welcomestatement, tagline and footer are same for all pages
+		 * @description: This is home page of the website consits of slider and keepconnected and body sections	 
+		 */-->
+	<head>
+		<meta charset="utf-8">
+		<title>Welcome to My Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<!-- Stylesheet for Slider -->
+		<link href = "css/slider.css" rel ="stylesheet" media="screen" />
+		
+	</head>
+	<body>
+		<!-- Navigation of the pages-->
+		<nav id="navlst">
+			<ul>
+				<li>
+					<img src="images/achlogo.png">
+				</li>
+				<li>
+					<a href="home.html" title="home" id="homenav">Home</a>
+				</li>
+				<li>
+					<a href="aboutme.html" title="aboutme"id="aboutnav">About ME</a>
+				</li>
+				<li>
+					<a href="projectwork.html" title="projectwork" id="projectnav">Project Work</a>
+				</li>
+				<li>
+					<a href="services.html" title="servicesces" id="servicesnav">Services</a>
+				</li>
+				<li>
+					<a href="contactme.html" title="contact" id="contactnav">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+		</br>
+		<header>
+			<!-- header with welcome statement and tagline-->
+			<h1>A Warm "WELCOME" Viewer!!!</h1>
+			<h3>Dare to be Programmer and Care to Acheive</h3>
+		</header>
+		<section>
+			<!-- brief description about what can i do-->
+			<p>
+				<strong>My Dream is to become a good programmer </strong></br>
+				I am an all round developer who knows front end, backend and middle tier programming
+				<br/>
+				I can design the websites, greeting cards, visiting cards
+				I put my efforts to fullfill your requirements. </br>
+				Nice journey so far. 
+			</p>
+			<p>
+				Be Connected following Social Networking Sites</br> 
+				<!--The following links link will open facebookand linkedin-->
+				<a href="https://www.facebook.com/" target="blank"><span style="font-family:Verdana, Geneva, sans-serif; font-size: x-small;">Facebook<img src="images/fb.jpg" width="50" height="50" /></a></br>
+				<a href="http://www.linkedin.com/profile/view?id=170837997&trk=nav_responsive_tab_profile" target="_blank"><span style="font-family:Verdana, Geneva, sans-serif; font-size: x-small;">LinkedIn<img src="images/lnkd.jpg" width="50" height="50" /></a>
+				<br/>
+				You can also reach me by email or mobile
+			</p>
+			<!-- Slider with four images of my projects -->
+  <ul class="slider">
+    <li>
+        <input type="radio" id="slide1" name="slide" checked>
+        <label for="slide1"> </label>
+       <img src="images/Movie.jpg" />
+    </li>
+    <li>
+        <input type="radio" id="slide2" name="slide">
+        <label for="slide2"> </label>
+        <img src="images/radio.jpg" />
+    </li>
+    <li>
+        <input type="radio" id="slide3" name="slide">
+        <label for="slide3"> </label>
+        <img src="images/weather.jpg" />
+    </li>
+    <li>
+        <input type="radio" id="slide4" name="slide">
+        <label for="slide4"> </label>
+        <img src="images/member.jpg" />
+    </li>
+   
+</ul>
+	</section>
+
+​	<!--footer of the screen with copyright statement and few other links-->
+		<footer>
+			<ul class="footer">
+				My Complete Profile &copy; 2013
+				<!--script to dispay current date-->
+				<script>
+					document.write(Date());
+				</script>
+				<a href="home.html">Terms</a>
+				<a href="home.html">Privacy</a>
+				<a href="home.html">Security</a>
+			</ul>
+		</footer>
+	</body>
+</html>

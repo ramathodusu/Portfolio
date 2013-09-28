@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+/* animation styling sheet for my running animation with different colors and size*/
+div#animation {
+	width: 250px;
+	height: 50px;
+	background-color: #993399;
+	position: absolute;
+	text-align: center;
+	animation: running;
+	-webkit-animation: welcome 5s linear 2s infinite alternate;
+	-moz-animation: welcome 5s linear 2s infinite alternate;
+}
+
+/*this animation works for chrome and safari only*/
+@-webkit-keyframes welcome
+{
+0%   {background:purple; right:0px; top:0px;}
+25%  {background:yellow; right:200px; top:0px;}
+50%  {background:red; right:200px; top:200px;}
+5%  {background:green; right:0px; top:200px;}
+100% {background:orange; right:0px; top:0px;}
+}
+/*this animation works for mozilla only*/
+@-moz-keyframes welcome
+{
+0%   {background:purple; right:0px; top:0px;}
+25%  {background:yellow; right:200px; top:0px;}
+50%  {background:red; right:200px; top:200px;}
+75%  {background:green; right:0px; top:200px;}
+100% {background:orange; right:0px; top:0px;}
+}

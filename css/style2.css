@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+/* @author: Rama Thodusu
+ * @filename:stylesheet2
+ * @websitename: Portfolio
+ * @description: This is stylesheet for header,navigation,form and footer
+ */
+/*this stylesheet is more about form styling*/
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	line-height: 1em;
+	text-shadow: 2px 2px 5px #0000FF;
+}
+form {
+	padding-top: 50px;
+}
+nav ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px 30px 0px 30px;
+}
+nav li {
+	width: 200px;
+	float: left;
+}
+/* for hyper link in the nav section*/
+nav a {
+	background-color: #CCC;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 20px;
+}
+/* when you place cursor on th link*/
+nav a:hover {
+	background: #066;
+}
+nav a:visited {
+	color: #000;
+}
+nav a:active {
+	color: #C6F;
+}
+/* hightlight the active page */
+nav#navlst a#homenav,
+nav#navlst1 a#aboutnav,
+nav#navlst2  a#projectnav,
+nav#navlst3  a#servicesnav,
+nav#navlst4  a#contactnav,
+{
+color: #fff;
+background: #930;
+}
+/* appearance of fieldset of form like color, margin */
+fieldset {
+	background-color: #FFA500;
+	border: none;
+	border-radius: 2px;
+	margin-bottom: 12px;
+	overflow: hidden;
+	padding: 0 10px;
+}
+ul {
+	background-color: #FFF;
+	border: 1px solid #0C9;
+	list-style: none;
+	margin: 12px;
+	padding: 12px;
+}
+ul li {
+	margin: 0.5em 0;
+}
+label {
+	display: inline-block;
+	padding: 3px 6px;
+	text-align: right;
+	width: 150px;
+	vertical-align: top;
+}
+.small {
+	width: 75px;
+}
+.medium {
+	width: 100px;
+}
+.large {
+	width: 150px;
+}
+/* style for the footer*/
+footer {
+	background-color: #CCC;
+	text-align: center;
+	font-family:"Arial Rounded MT Bold";
+	font-size: 16px;
+	width: auto;
+	clear: both;
+}
